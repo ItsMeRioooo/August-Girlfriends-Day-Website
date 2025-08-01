@@ -1,0 +1,104 @@
+#flowers-animation {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.flower {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    pointer-events: none;
+    opacity: 0.85;
+    will-change: transform;
+    transition: opacity 0.5s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed, linear-gradient(135deg, #f9e6f7 0%, #f7f6e7 100%);
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: rgba(255,255,255,0.92);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(2px);
+}
+
+h1 {
+    color: #d72660;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+
+.flower-border {
+    background: url('https://www.transparenttextures.com/patterns/flowers.png');
+    height: 40px;
+    margin: 0 auto 30px auto;
+    background-size: contain;
+    opacity: 0.3;
+}
+
+.greeting {
+    font-size: 1.2rem;
+    color: #5e366e;
+    margin-bottom: 24px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background: linear-gradient(90deg, #fbb1b1 0%, #f7c5e0 100%);
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(215,38,96,0.08);
+    transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #f7c5e0 0%, #fbb1b1 100%);
+    transform: scale(1.05);
+}
+
+#letter {
+    margin-top: 30px;
+    background: #fff0f6;
+    border-radius: 16px;
+    padding: 28px 20px;
+    color: #5e366e;
+    font-size: 1.15rem;
+    box-shadow: 0 2px 12px rgba(247,197,224,0.15);
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
