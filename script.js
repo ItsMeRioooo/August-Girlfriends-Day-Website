@@ -46,7 +46,7 @@ function showLetter() {
         <div id="letter">
             <h2>To My Beautiful Girlfriend 💖</h2>
             <p>
-                Happy Girlfriend's Day, my love! 🌸<br><br>                 I just want to remind you how much you mean to me. I love you so much my love. Thank you for always being here for me, loving me, caring for me, and beautiful inside and out.<br><br>                 I hope today brings you as much happiness as you bring to my life every single day. I love you more than words can say!<br><br>
+                Happy Girlfriend's Day, my love! 🌸<br><br>                 I just want to remind you how much you mean to me. I love you so much, my love. Thank you for always being here for me, loving me, caring for me, and for being beautiful inside and out.<br><br>                 I hope today brings you as much happiness as you bring to my life every single day. I love you more than words can say!<br><br>
                 Forever yours,<br>
                 ❤️
             </p>
